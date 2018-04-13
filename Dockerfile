@@ -35,8 +35,8 @@ RUN gdal_translate \
     -s '//GDAL_WMTS/Cache' -t elem -n 'Extension' -v '.jpg' \
     -s '//GDAL_WMTS/Cache' -t elem -n 'Expires' -v '31536000' \
     -s '//GDAL_WMTS/Cache' -t elem -n 'MaxSize' -v '17179869184' \
-    -s '//GDAL_WMTS' -t elem -n 'MaxConnections' -v '6' \
-    -s '//GDAL_WMTS' -t elem -n 'Timeout' -v '30' \
+    -s '//GDAL_WMTS' -t elem -n 'MaxConnections' -v '4' \
+    -s '//GDAL_WMTS' -t elem -n 'Timeout' -v '20' \
     wmts.xml
 
 RUN cat wmts.xml
