@@ -1,3 +1,5 @@
+REPLACED BY: https://github.com/Firefishy/coct-aerial-imagery-leaflet 
+
 Basic install notes:
 
 * Install latest Docker
